@@ -1,6 +1,7 @@
 use chrono::{TimeZone, Datelike, Duration, Timelike};
 use std::fmt;
 
+#[derive(PartialEq, Debug)]
 pub struct Clock {
     hours: i32,
     minutes: i32
